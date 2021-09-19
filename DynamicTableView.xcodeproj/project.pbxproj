@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1B2DA926F70BA00058F3B2 /* MyCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B2DA826F70BA00058F3B2 /* MyCollectionVC.swift */; };
+		3E1B2DAB26F70C140058F3B2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B2DAA26F70C140058F3B2 /* MainVC.swift */; };
+		3E1B2DAD26F70DBD0058F3B2 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1B2DAC26F70DBD0058F3B2 /* MyCollectionViewCell.swift */; };
 		3E42CA1326EF4E5D00579203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E42CA1226EF4E5D00579203 /* AppDelegate.swift */; };
 		3E42CA1526EF4E5D00579203 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E42CA1426EF4E5D00579203 /* SceneDelegate.swift */; };
 		3E42CA1C26EF4E5D00579203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E42CA1B26EF4E5D00579203 /* Assets.xcassets */; };
 		3E42CA1F26EF4E5D00579203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E42CA1D26EF4E5D00579203 /* LaunchScreen.storyboard */; };
 		3E42CA3326EF505000579203 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E42CA2E26EF505000579203 /* MyTableViewCell.xib */; };
-		3E42CA3426EF505000579203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E42CA2F26EF505000579203 /* ViewController.swift */; };
+		3E42CA3426EF505000579203 /* MyTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E42CA2F26EF505000579203 /* MyTableVC.swift */; };
 		3E42CA3526EF505000579203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E42CA3026EF505000579203 /* Main.storyboard */; };
 		3E42CA3626EF505000579203 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E42CA3226EF505000579203 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E1B2DA826F70BA00058F3B2 /* MyCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionVC.swift; sourceTree = "<group>"; };
+		3E1B2DAA26F70C140058F3B2 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3E1B2DAC26F70DBD0058F3B2 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		3E42CA0F26EF4E5D00579203 /* DynamicTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E42CA1226EF4E5D00579203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E42CA1426EF4E5D00579203 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +31,7 @@
 		3E42CA1E26EF4E5D00579203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E42CA2026EF4E5D00579203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E42CA2E26EF505000579203 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyTableViewCell.xib; path = ../../AutoLayout/AutoLayout/MyTableViewCell.xib; sourceTree = "<group>"; };
-		3E42CA2F26EF505000579203 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E42CA2F26EF505000579203 /* MyTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableVC.swift; sourceTree = "<group>"; };
 		3E42CA3126EF505000579203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../AutoLayout/AutoLayout/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E42CA3226EF505000579203 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewCell.swift; path = ../../AutoLayout/AutoLayout/MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,9 +69,12 @@
 				3E42CA1226EF4E5D00579203 /* AppDelegate.swift */,
 				3E42CA1426EF4E5D00579203 /* SceneDelegate.swift */,
 				3E42CA3026EF505000579203 /* Main.storyboard */,
+				3E1B2DAA26F70C140058F3B2 /* MainVC.swift */,
+				3E1B2DA826F70BA00058F3B2 /* MyCollectionVC.swift */,
+				3E1B2DAC26F70DBD0058F3B2 /* MyCollectionViewCell.swift */,
 				3E42CA3226EF505000579203 /* MyTableViewCell.swift */,
 				3E42CA2E26EF505000579203 /* MyTableViewCell.xib */,
-				3E42CA2F26EF505000579203 /* ViewController.swift */,
+				3E42CA2F26EF505000579203 /* MyTableVC.swift */,
 				3E42CA1B26EF4E5D00579203 /* Assets.xcassets */,
 				3E42CA1D26EF4E5D00579203 /* LaunchScreen.storyboard */,
 				3E42CA2026EF4E5D00579203 /* Info.plist */,
@@ -144,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E42CA3426EF505000579203 /* ViewController.swift in Sources */,
+				3E42CA3426EF505000579203 /* MyTableVC.swift in Sources */,
+				3E1B2DAD26F70DBD0058F3B2 /* MyCollectionViewCell.swift in Sources */,
+				3E1B2DAB26F70C140058F3B2 /* MainVC.swift in Sources */,
 				3E42CA3626EF505000579203 /* MyTableViewCell.swift in Sources */,
+				3E1B2DA926F70BA00058F3B2 /* MyCollectionVC.swift in Sources */,
 				3E42CA1326EF4E5D00579203 /* AppDelegate.swift in Sources */,
 				3E42CA1526EF4E5D00579203 /* SceneDelegate.swift in Sources */,
 			);
