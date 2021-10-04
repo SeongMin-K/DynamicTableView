@@ -17,12 +17,12 @@ class MyHeartBtn: UIButton {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        print("MyHeartBtn - awakeFromNib() called")
+        print(#fileID, #function, "called")
         configureAction()
     }
     
     func setState(_ newValue: Bool) {
-        print("MyHeartBtn - setState() called / newValue: \(newValue)")
+        print(#fileID, #function, "called / newValue: \(newValue)")
         
         // 1. 현재 버튼의 상태 변경
         self.isActivated = newValue
@@ -32,12 +32,12 @@ class MyHeartBtn: UIButton {
     }
     
     fileprivate func configureAction() {
-        print("MyHeartBtn - configureAction() called")
+        print(#fileID, #function, "called")
         self.addTarget(self, action: #selector(onBtnClicked(_:)), for: .touchUpInside)
     }
     
     @objc fileprivate func onBtnClicked(_ sender: UIButton) {
-        print("MyHeartBtn - onBtnClicked() called")
+        print(#fileID, #function, "called")
         self.isActivated.toggle()
         
         // 애니메이션 처리
@@ -45,7 +45,7 @@ class MyHeartBtn: UIButton {
     }
     
     fileprivate func animate() {
-        print("MyHeartBtn - animate() called")
+        print(#fileID, #function, "called")
         
         UIView.animate(withDuration: 0.1, animations: { [weak self] in
             guard let self = self else { return }

@@ -66,7 +66,7 @@ class MyTableVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("MyTableVC - viewDidLoad() called")
+        print(#fileID, #function, "called")
         
         // 셀 리소스 파일 가져오기
         let myTableViewCellNib = UINib(nibName: String(describing: MyTableViewCell.self), bundle: nil)

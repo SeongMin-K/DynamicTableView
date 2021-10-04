@@ -11,6 +11,6 @@ import UIKit
 class MainVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("MainVC - viewDidLoad() called")
+        print(#fileID, #function, "called")
     }
 }

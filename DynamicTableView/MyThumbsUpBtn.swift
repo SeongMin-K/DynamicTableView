@@ -17,12 +17,12 @@ class MyThumbsUpBtn: UIButton {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        print("MyThumbUpBtn - awakeFromNib() called")
+        print(#fileID, #function, "called")
         configureAction()
     }
     
     func setState(_ newValue: Bool) {
-        print("MyThumbUpBtn - setState() called / newValue: \(newValue)")
+        print(#fileID, #function, "called / newValue: \(newValue)")
         
         // 1. 현재 버튼의 상태 변경
         self.isActivated = newValue
@@ -32,12 +32,12 @@ class MyThumbsUpBtn: UIButton {
     }
     
     fileprivate func configureAction() {
-        print("MyThumbUpBtn - configureAction() called")
+        print(#fileID, #function, "called")
         self.addTarget(self, action: #selector(onBtnClicked(_:)), for: .touchUpInside)
     }
     
     @objc fileprivate func onBtnClicked(_ sender: UIButton) {
-        print("MyThumbUpBtn - onBtnClicked() called")
+        print(#fileID, #function, "called")
         self.isActivated.toggle()
         
         // 애니메이션 처리
@@ -45,7 +45,7 @@ class MyThumbsUpBtn: UIButton {
     }
     
     fileprivate func animate() {
-        print("MyThumbUpBtn - animate() called")
+        print(#fileID, #function, "called")
         
         UIView.animate(withDuration: 0.1, animations: { [weak self] in
             guard let self = self else { return }

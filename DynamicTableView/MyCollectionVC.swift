@@ -20,7 +20,7 @@ class MyCollectionVC: UIViewController {
     // Mark: - Lifecycles
     override func viewDidLoad() {
         super .viewDidLoad()
-        print("MyCollectionVC - viewDidLoad() called")
+        print(#fileID, #function, "called")
         
         // 컬렉션 뷰에 대한 설정
         myCollectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]

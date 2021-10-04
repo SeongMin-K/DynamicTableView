@@ -15,7 +15,7 @@ class MyCollectionViewCell: UICollectionViewCell {
     
     var imageName: String = "" {
         didSet {
-            print("MyCollectionViewCell / imageName - didSet() : \(imageName)")
+            print(#fileID, #function, "called / imageName - didSet() : \(imageName)")
 //            self.profileImg.image = UIImage(systemName: imageName)
 //            self.profileLabel.text = imageName
         }
@@ -23,6 +23,6 @@ class MyCollectionViewCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        print("MyCollectionViewCell - awakeFromNib() called")
+        print(#fileID, #function, "called")
     }
 }
